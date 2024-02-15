@@ -10,3 +10,8 @@ This example demonstrates how to write unit tests with aXe-core
 
 ## To run the example ##
 * Run tests with `npm test`
+
+## Common errors ##
+* You get code ENOENT when you run `npm install`
+* Problem: you are in the wrong directory
+* Solution: cd into the project catalog: `cd axe-unit-tests`
