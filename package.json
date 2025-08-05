@@ -1,27 +1,18 @@
 {
   "name": "axe-unit-tests",
-  "version": "0.0.1",
-  "description": "Example project for writing unit tests with aXe-core",
-  "main": "Gruntfile.js",
+  "version": "1.0.0",
+  "description": "",
+   "type": "module",
   "scripts": {
-    "build": "grunt",
-    "test": "grunt jasmine"
-  },
-  "keywords": [
-    "a11y",
-    "accessibility",
-    "axe"
-  ],
-  "author": "Cecilie Haugstvedt",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/anneceh/axe-unit-tests.git"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "devDependencies": {
-    "axe-core": "~3.5.1",
-    "grunt": "~1.5.3",
-    "grunt-contrib-jasmine": "~4.0.0"
-  },
-  "dependencies": {}
+    "axe-core": "^4.10.3",
+    "jsdom": "^26.1.0",
+    "vite": "^7.0.4",
+    "vitest": "^3.2.4"
+  }
 }

@@ -9,6 +9,9 @@ This example demonstrates how to write unit tests with aXe-core
 * Install dependencies with `npm install`
 
 ## To run the example ##
+* Run tests with `npm run dev`
+
+## To run the test ##
 * Run tests with `npm test`
 
 ## Common errors ##
